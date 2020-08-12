@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+
+target 'GroopCam' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for GroopCam
+
+  pod 'Firebase/Core'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+  pod 'Firebase/DynamicLinks'
+  pod 'Firebase/Messaging'
+  pod 'Kingfisher', '~> 5.0'
+  pod 'Stripe'
+#  pod 'Stripe/ApplePay'
+  pod 'Alamofire', '~> 4.5'
+  pod "BSImagePicker"
+
+end
+
